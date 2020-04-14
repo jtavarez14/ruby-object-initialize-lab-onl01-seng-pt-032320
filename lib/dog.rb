@@ -1,3 +1,11 @@
-class Dog(name, breed)
-  def ini
+class Dog(name)
+  def initialize(name, breed)
+    @name = name 
+    @breed = mutt
+  end 
+  
+  def name 
+    @name 
+    @breed 
+  end 
 end 
